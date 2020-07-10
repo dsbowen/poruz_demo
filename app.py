@@ -6,4 +6,4 @@ app = create_app()
 
 if __name__ == '__main__':
     from hemlock.app import socketio
-    socketio.run(app)
+    socketio.run(app, debug=True)
