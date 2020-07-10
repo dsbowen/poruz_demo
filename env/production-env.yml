@@ -1,1 +1,2 @@
+APP_IMPORT: app.app
 CHROMEDRIVER_PATH: /app/.chromedriver/bin/chromedriver
