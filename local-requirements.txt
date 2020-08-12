@@ -1,3 +1,2 @@
 hemlock-survey>=0.0.19
-ipykernel>=5.3.2
 pyyaml>=5.3.1
