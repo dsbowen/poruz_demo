@@ -1,3 +1,7 @@
+import eventlet
+
+eventlet.monkey_patch()
+
 import survey
 
 from hemlock import create_app

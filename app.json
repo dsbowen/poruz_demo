@@ -1,7 +1,11 @@
 {
-    "addons": ["heroku-postgresql:hobby-dev"],
+    "addons": [
+        "heroku-postgresql:hobby-dev",
+        "heroku-redis:hobby-basic"
+    ],
     "formation": {
-        "web": {"quantity": 1, "size": "free"}
+        "web": {"quantity": 1, "size": "hobby"},
+        "worker": {"quantity": 1, "size": "hobby"}
     },
     "env": {
         "APP_IMPORT": {
